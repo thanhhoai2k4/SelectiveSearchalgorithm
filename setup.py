@@ -9,6 +9,7 @@ setup(name="Selective Search",
       install_requires=[
           "cv2",
           "numpy",
-          "matplotlib"
+          "matplotlib",
+          "opencv-python"
       ]
       )
