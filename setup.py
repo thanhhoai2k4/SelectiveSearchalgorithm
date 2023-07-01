@@ -10,6 +10,6 @@ setup(name="Selective Search",
           "cv2",
           "numpy",
           "matplotlib",
-          "opencv-python"
+          "opencv-contrib-python"
       ]
       )
