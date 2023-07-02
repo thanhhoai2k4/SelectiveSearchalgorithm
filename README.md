@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"># SelectiveSearchalgorithm</h1>
+<h1 style="text-align: center;">SelectiveSearchalgorithm</h1>
 <h2 style="text-align: center; color:blue;"> Selective Search for Object Detection </h2>
 
 ## ***install environment***
