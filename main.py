@@ -17,7 +17,7 @@ ap.add_argument("-m", "--method", type=str, default="fast",
 args = vars(ap.parse_args())
 
 """
-    run file : python main.py --image E:\github_thanhhoai2k4\SelectiveSearchalgorithm\dog.jpg 
+    run file : python main.py --image E:\github_thanhhoai2k4\SelectiveSearchalgorithm\data\2anhem.jpg
     python filename --image path
 """
 
@@ -33,10 +33,10 @@ selectiveSearch.setBaseImage(image)
 
 if args["method"] == "fast":
     print("[INFO] Using *fast* selective search")
-    selectiveSearch.switchToSelectiveSearchFast()
+    selectiveSearch.switchToSelectiveSearchFast(2000)
 else:
     print("[INFO] Using *quality* selective search")
-    selectiveSearch.switchToSelectiveSearchQuality()
+    selectiveSearch.switchToSelectiveSearchQuality(2000)
 
 
 # time run on selective search on the image
@@ -52,7 +52,7 @@ print("[INFO] total region proposals {}".format(len(rects)))
 for  i in range(0,len(rects),100):
     output = image.copy()
     for (x,y,w,h) in rects[i:i+100]:
-        color = [random.randint(0,255) for j in range(0,3)]
+        color = [0,255,0]
         cv2.rectangle(output,(x,y), (x+w,y+h), color, 2)
     
     cv2.imshow("Output", output)
