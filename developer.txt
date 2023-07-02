@@ -1,0 +1,2 @@
+Traning model và dưa các vùng vào model và dự đoán sau đó dụng IOU để đưa ra khung hình  hoàng chỉnh
+
