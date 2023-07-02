@@ -1,8 +1,8 @@
-# SelectiveSearchalgorithm
-Selective Search for Object Detection
+<h1 style="text-align: center;"># SelectiveSearchalgorithm</h1>
+<h2 style="text-align: center; color:blue;"> Selective Search for Object Detection </h2>
 
 ## ***install environment***
-to the curent dicecoty run setup.py file in terminal:
+<p>to the curent dicecoty run setup.py file in terminal:</p>
 `pip setup.py install`
 
 ## Run file main in terminal:
