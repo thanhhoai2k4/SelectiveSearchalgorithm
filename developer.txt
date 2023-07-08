@@ -1,2 +1,10 @@
-Traning model và dưa các vùng vào model và dự đoán sau đó dụng IOU để đưa ra khung hình  hoàng chỉnh
+ Traning model detection dog
+ output: 1: not dog
+         2: dog
+
+
+         loss:  Binary Classifiers
+         binary_crossentropy
+        link: https://www.educba.com/keras-binary-classification/, 
+              https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/
 
