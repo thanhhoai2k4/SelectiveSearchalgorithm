@@ -17,8 +17,9 @@ ap.add_argument("-m", "--method", type=str, default="fast",
 args = vars(ap.parse_args())
 
 """
-    run file : python main.py --image E:\github_thanhhoai2k4\SelectiveSearchalgorithm\data\2anhem.jpg
+    run file : python main.py --image .\data\dog.jpg
     python filename --image path
+
 """
 
 

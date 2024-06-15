@@ -3,10 +3,10 @@
 
 ## ***install environment***
 <p>to the curent dicecoty run setup.py file in terminal:</p>
-`pip setup.py install`
+`python install -r developer.tx`
 
 ## Run file main in terminal:
-`python filename --image path`
+`python main.py --image .\data\dog.jpg`
 
 
 ## Read more here 
